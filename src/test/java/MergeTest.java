@@ -20,6 +20,8 @@ public class MergeTest {
 
     // check the resources folder for test samples
     private static final String[] FILES = {
+            "sample1", // sample #1 from readme
+            "sample2", // sample #2 from readme
             "ABC",  // three rows can be merged into one
             "A",    // two rows can be merged into one
             "B",    // rows cannot be merged
