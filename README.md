@@ -4,7 +4,7 @@ It is written in Java and uses the Apache Commons CSV library to read and write 
 
 # Background
 I was working on an integration project where I had to deliver CSV files to a third-party system.
-After we entered the UAT phase, a requirement emerged to merge specific rows in the CSV file based on ID and Date.
+After we entered the UAT phase, a requirement emerged to merge specific rows in the CSV file based on `ID` and `Date`.
 
 Two days before my vacation, UAT was in full swing... I spent quite some time ironing out the details and writing the code.
 
@@ -41,7 +41,7 @@ In the above example, rows 1, 2 and 4 can be merged. So, the final CSV file shou
 ```csv
 ID,Date,Amount,Currency,Country
 1,2021-01-01,100,EUR,Germany
-1,2021-01-02,300,USD,USA
+1,2021-01-01,300,USD,USA
 ```
 
 # Test Driven Development (TDD)
